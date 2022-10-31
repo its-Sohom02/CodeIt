@@ -20,15 +20,15 @@ public:
         {
             ans = min(left,right) + 1;
         }
-        if(left==0 && right !=0)
+        else if(left==0 && right !=0)
         {
             ans = right+1;
         }
-        if(right==0 && left!=0)
+        else if(right==0 && left!=0)
         {
             ans = left+1;
         }
-        if(left!=0 && right!=0)
+        else if(left!=0 && right!=0)
         {
             ans = min(left,right) + 1;
         }
